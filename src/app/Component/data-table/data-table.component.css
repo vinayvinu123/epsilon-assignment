@@ -1,0 +1,24 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 0.25rem;
+}
+table tr th , table tr td{
+    padding: 17px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #666666;
+}
+table tr th{
+    text-align: initial;
+}
+table tr:nth-child(odd){
+    background-color: rgb(231, 230, 230);
+}
+.sort-btn{
+    cursor: pointer;
+    
+}
+.sort-btn:hover{
+    color:#0063e6
+}

@@ -1,0 +1,21 @@
+<table>
+    
+        <tr >
+            
+                <th *ngFor="let item of tableHeaders" >
+                    <div>{{item}}<span class="sort-btn" (click)="sort($event)">&#9660;</span></div>
+                   
+                </th>
+           
+            
+        </tr>
+  
+    
+  
+        <tr *ngFor="let item of tableData">
+            <td>{{item['name']}}</td>
+            <td>{{item['price']}}</td>
+            <td>{{item['category']}}</td>
+        </tr>
+    
+</table>

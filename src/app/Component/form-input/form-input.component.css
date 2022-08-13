@@ -1,0 +1,21 @@
+.form-content{
+    display: flex;
+    flex-direction: column;
+}
+.form-label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+.form-input{
+    padding: 15px 7px;
+    border: 1px solid black;
+    font-family: sans-serif;
+    border-radius: 0.25rem;
+}
+::placeholder{
+    font-size: 14px;
+    color: #737373;
+    font-family: sans-serif;
+}
